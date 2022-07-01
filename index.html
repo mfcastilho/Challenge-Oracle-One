@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--arquivos css-->
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"> 
+
+  <!--Título-->
+  <title>Decodificador de texto com Javascript</title>
+</head>
+<body>
+
+  <header>
+    <h2 id="logo-alura"><img src="assets/logo_alura.png" alt="Logo da Alura"></h2>
+  </header>
+
+  <main>  
+    <section id="sessao-text_area">
+      <form action="">
+        <textarea type="text" id="campo-text_area" name="campo-text_area"  placeholder=" Digite seu texto" ></textarea>         
+        <span id="caixa-msg">
+          <p class="msg"><img src="assets/simbolo_ponto_exclamacao.png" alt="simbolo de exclamação">Apenas letras minúsculas e sem acento.</p>
+        </span>      
+        <div id="caixa-botoes_principais">
+          <input id="botao-criptografar" class="botao" type="submit" value="Criptografar" onclick="criptografar()">
+          <input id="botao-descriptografar" class="botao" type="submit" value="Descriptografar" onclick="descriptografar()">           
+        </div>
+      </form>   
+    </section>  
+
+    <section id="sessao-retorna_texto">
+      <div id="campo-texto_criptografado">
+        <textarea id="texto_criptografado"></textarea>
+        <img id="imagem-boneco" src="assets/boneco_com_aLupa.svg" alt="">
+        <div id="msg-nao_encontrada">
+          <h5>Nenhuma mensagem encontrada</h5>
+          <p>Digite um texto que você deseja criptografar e descritografar</p>  
+        </div>
+          
+        <div id="caixa-botao_copiar" class="invisivel" action="">
+          <input id="botao-copiar" class="botao" type="submit" value="Copiar" onclick="copiaTexto()">
+        </div> 
+      </div>        
+    </section>   
+  </main>
+  
+  <footer>
+    <h6>Challenge 1 - Decodificador de Textos / Autor: Mario Frederico de Castilho.</h6> 
+  </footer>  
+
+  <script src="js/script.js"></script>
+  
+</body>
+</html>
