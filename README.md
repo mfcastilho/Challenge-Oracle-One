@@ -18,3 +18,6 @@
    * Deve ser possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 -EXTRAS:
    * Um botão que copie o texto criptografado para a área de transferência.
+
+-TESTE ELE AQUI:
+   * https://mariofrederico.github.io/Challenge-Oracle-One/
