@@ -4,6 +4,7 @@ var form = document.querySelector("form");
 var textoCriptografado = document.querySelector("#texto_criptografado");
 var botaoCriptografar = document.querySelector("#botao-criptografar");
 var botaDescriptografar = document.querySelector("#botao-descriptografar");
+var campoTextArea = document.querySelector("#campo-text_area");
 
 function validandoTexto(x){
   //expressão regular(letras maiúsculas e letras com acentuação)
@@ -123,10 +124,12 @@ function descriptografar(){
 }
 
 function copiaTexto() {
+  
+  textoCriptografado.textContent = "";
   var copiaTexto = document.querySelector("#texto_criptografado");
   navigator.clipboard.writeText(copiaTexto.value);
   alert("Texto Copiado");
-
+  form.reset();
 }
 
 
