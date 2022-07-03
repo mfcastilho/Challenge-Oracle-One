@@ -20,4 +20,4 @@
    * Um botão que copie o texto criptografado para a área de transferência.
 
 -TESTE ELE AQUI:
-   * hhttps://mfcastilho.github.io/Challenge-Oracle-One/
+   * https://mfcastilho.github.io/Challenge-Oracle-One/
