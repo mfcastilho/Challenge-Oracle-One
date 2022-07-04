@@ -128,7 +128,7 @@ function copiaTexto() {
   var copiaTexto = document.querySelector("#texto_criptografado");
   navigator.clipboard.writeText(copiaTexto.value);
   alert("Texto Copiado");
-  form.reset();
+  //form.reset();
   textoCriptografado.textContent = "";
   
 }
