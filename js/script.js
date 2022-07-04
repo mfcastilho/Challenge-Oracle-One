@@ -8,7 +8,7 @@ var campoTextArea = document.querySelector("#campo-text_area");
 
 function validandoTexto(x){
   //expressão regular(letras maiúsculas e letras com acentuação)
-  var regex = /^[A-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$/g;
+  var regex = /^[A-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ]+$/g;
   
   for(var i = 0; i < x.length; i++){
     
