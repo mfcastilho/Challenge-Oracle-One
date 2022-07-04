@@ -130,7 +130,6 @@ function copiaTexto() {
   alert("Texto Copiado");
   form.reset();
   textoCriptografado.textContent = "";
-  
 }
 
 
